@@ -6,6 +6,7 @@ INDICE
     Variáveis
     Input
     SLICE - pegar parte de uma string
+    Métodos em string
 '''
 
 '''
@@ -98,3 +99,18 @@ print(palavra[-3])
 print ("---------------------------------")
 
 '''
+
+#Métodos em string
+print ("\n")
+palavra = " Texto de exemplo para métodos"
+
+print(palavra)
+print(palavra.lower())
+print(palavra.upper())
+print(palavra.find("é"))
+print(palavra.find("exemplo"))
+print(palavra.strip())
+print(palavra.replace("o","x"))
+print(palavra.replace("Texto","Stringão"))
+
+print ("---------------------------------")
