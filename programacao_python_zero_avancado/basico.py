@@ -1,9 +1,11 @@
 '''
 INDICE
     Print
+    Sting Formatada
     Comentários
     Variáveis
     Input
+    SLICE - pegar parte de uma string
 '''
 
 '''
@@ -24,6 +26,17 @@ curso2 = "AWS"
 horas2 = str(40)
 print("O curso de " + curso2 + " tem mais que " + horas2 + " horas")
 print ("----------------------------------")
+
+
+#Sting Formatada
+print ("\n") 
+nome1 = "Sergio"
+nome2 = "Nantes"
+nome3 = "Souza"
+
+print (f"Seu nome é {nome1} {nome2} de {nome3}")
+print ("----------------------------------")
+
 
 #Comentários
 print ("\n") 
@@ -52,8 +65,6 @@ print(y)
 print(z)
 print ("----------------------------------")
 
-'''
-
 #Input
 print ("\n")
 valor1 = input("Digite um número  ")
@@ -66,3 +77,24 @@ print ("resultado: " + str(type(resultado)))
 print ("A soma dos 2 números é: " + str(resultado) )
 print ("---------------------------------")
 
+
+#SLICE - pegar parte de uma string
+print ("\n")
+palavra = "São Paulo"
+#index     012345678
+
+#Pegar a letra "P"
+print(palavra[4])
+
+#Pegar as letras "São"
+print(palavra[:3])
+
+#Pegar as letras "o Pa"
+print(palavra[2:6])
+
+#Pegar as letras "u"
+print(palavra[-3])
+
+print ("---------------------------------")
+
+'''
